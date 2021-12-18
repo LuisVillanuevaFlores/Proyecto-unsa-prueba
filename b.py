@@ -6,4 +6,7 @@ def loop_regard():
         a = multiple_saludo("Juan ", "cuidate")
         print(a)
 
-loop_regard()
+def concate_message(text):
+    loop_regard()
+    print('@'*10)
+    b = multiple_saludo("pedro ", "adios")
