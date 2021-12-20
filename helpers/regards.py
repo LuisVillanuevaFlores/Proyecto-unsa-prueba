@@ -1,4 +1,6 @@
 from a import regard
+from human import Humano
 
 def regard_personalize (name):
-    return regard(name) + " hola"
+    human = Humano(19,"Luis")
+    return human.nombre + " hola"
